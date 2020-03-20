@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script>
+    function validateForm()
+    {
+        var x = document.forms["myForm"]["fname"].value;
+        var z = document.forms["myForm"]["lname"].value;
+        var y = document.forms["myForm"]["phone"].value;
+        if (x == "")
+        {
+          alert("Name must be filled out");
+          return false;
+        }
+        if (z == "")
+        {
+          alert("Last Name must be filled out");
+          return false;
+        }
+        else if (isNaN(y))
+        {
+         alert("Phone must be Number");
+         return false;
+        }
+        else
+        {
+          alert("your form submitted");
+        }
+     }
+    </script>
+  </head>
+  <body>
+      <div class="header">
+
+        <h1>Assignment 4</h1>
+        <h2>Register Form</h2>
+
+      </div>
+      <div class="main">
+        <form name="myForm" action="#" method="post">
+          <table>
+            <tr>
+              <td>First Name</td>
+              <td><input type="text" placeholder="Enter first name" name="fname"></td>
+            </tr>
+            <tr>
+              <td>Last Name</td>
+              <td><input type="text" placeholder="Enter last name" name="lname"></td>
+            </tr>
+            <tr>
+              <td>E-mail</td>
+              <td><input type="mail" placeholder="Enter email" name="email"></td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td><input type="text" placeholder="Enter Phone no." name="phone"></td>
+            </tr>
+            <td>Gender</td>
+            <td><input type="radio" value="male" name="gen">male</td>
+            <td><input type="radio" value="female" name="gen">female</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td><textarea></textarea></td>
+            </tr>
+          </table>
+          <input type="button" value="Continue..." onclick="validateForm()">
+        </form>
+      </div>
+      <p align="right">©Parth Goswami(18ce027)</p>
+  </body>
+  </html>

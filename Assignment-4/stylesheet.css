@@ -1,0 +1,41 @@
+*{
+  margin:10px;
+}
+.header{
+    background-color: #87CEFA;
+    height:100px;
+    padding:35px 30px;
+
+}
+.header h1{
+  font-size: 50px;
+  color:white;
+  font-family:sans-serif;
+}
+.header h2{
+  font-size: 40px;
+  color:white;
+  font-family:sans-serif;
+}
+.header img{
+  height:150px;
+  width:250px;
+  float:right;
+}
+.main{
+     padding:15px 35px;
+}
+.main p{
+     color:blue;
+}
+.footer{
+    background-color: red;
+    height:10px;
+    padding:35px 30px;
+    text-align:right;
+
+}
+#id1{
+  font-family:monospace;
+  color:white;
+}

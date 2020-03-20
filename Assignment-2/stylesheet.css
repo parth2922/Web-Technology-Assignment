@@ -1,0 +1,46 @@
+*{
+  margin:10px;
+  background-color: #E0FFFF;
+}
+.header{
+    background-color: #87CEFA;
+    height:100px;
+    padding:35px 30px;
+
+}
+.header h1{
+  font-size: 50px;
+  color:white;
+  font-family:sans-serif;
+  float:left;
+  background-color: #87CEFA;
+}
+.header img{
+  height:130px;
+  width:250px;
+  float:right;
+}
+.main{
+     padding:15px 35px;
+     height: 500px;
+}
+.main p{
+     color:blue;
+}
+.main img{
+      float:right;
+      width:350px;
+      height:200px;
+}
+.footer{
+    background-color: #87CEFA;
+    height:10px;
+    padding:35px 30px;
+    text-align:right;
+
+}
+#id1{
+  font-family:monospace;
+  color:black;
+  background-color: #87CEFA;
+}
